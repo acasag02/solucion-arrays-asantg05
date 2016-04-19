@@ -1,0 +1,45 @@
+Practica P-ARR
+
+Alumno:
+
+Horas dedicadas:
+
+Problemas surgidos al realizar la practica:
+
+Respuestas a la preguntas:
+
+Apartado 3.1.2. - Ejercicio 2
+
+Se produce una excepción del tipo ArrayIndexOutOfBoundException
+puesto que se accede a una posición incorrecta del array. Puesto 
+que los arrays se recorren desde la posición cero, únicamente 
+están disponibles las posiciones desde la cero hasta longitud del 
+array menos uno.
+
+Apartado 3.2.2. - Ejercicio 1
+
+Puesto que la copia se realiza por referencia, ambas colecciones
+estan apuntando a las mismas posiciones de memorias; es decir, a
+los mismos objetos de tipo Persona. Por este motivo, al realizar
+un cambio sobre el array <<personas>> se ve afectado <<copia>>.
+
+Apartado 3.2.2. - Ejercicio 2
+
+Puesto que la copia se realiza por valor, las colecciones contienen
+elementos distintos. Por este motivo, al realizar un cambio sobre 
+el array <<personas>> NO se ve afectado <<copia>>.
+
+Apartado 3.2.2. - Ejercicio 3
+
+Se realiza el intercambio de arrays entre metodos como parametros. Dado
+que en Java el paso de parametros es por valor, se recibe la posicion de
+memoria de los elementos de la array y los cambios en los mismos se ven
+reflejados en la variable original.
+
+Apartado 3.2.2. - Ejercicio 4
+
+El metodo muestra el error producido al intentar crear un array en otro
+metodo. Dado que en Java el paso de parametros es por valor, se esta
+creando una nueva array que no se ve reflejada en la variable original.
+
+
